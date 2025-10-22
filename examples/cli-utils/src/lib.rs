@@ -12,6 +12,10 @@ use std::io::{BufRead, BufReader};
 
 pub mod config;
 pub mod colors;
+pub mod math_utils;
+pub mod string_utils;
+pub mod date_utils;
+pub mod file_io_utils;
 
 
 /// This function reads a line from stdin and returns it as a String.
